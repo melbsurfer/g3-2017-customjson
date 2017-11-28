@@ -1,0 +1,7 @@
+import customjson.Car
+
+model {
+	Car car
+}
+
+json tmpl.car(car)

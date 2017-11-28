@@ -1,0 +1,12 @@
+import customjson.Person
+
+model {
+	Person person
+}
+
+//json g.render(person, [resolveTemplate: false])
+
+json {
+    givenName person.firstName
+    surname person.lastName
+}

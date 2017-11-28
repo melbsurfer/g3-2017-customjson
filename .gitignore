@@ -1,0 +1,14 @@
+.asscache
+Thumbs.db
+.DS_Store
+.gradle
+build/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+
+apps/omar-ui-app/application.yml
